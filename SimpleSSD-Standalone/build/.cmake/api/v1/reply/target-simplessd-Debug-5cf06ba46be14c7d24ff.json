@@ -1,0 +1,637 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libsimplessd.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"simplessd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 198,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O2 -g -rdynamic -Wall -Wextra -Werror  -g  "
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/simplessd"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/simplessd/lib/mcpat"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/simplessd/lib/mcpat/cacti"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/simplessd/lib/inih"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/lib/drampower/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/simplessd"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/simplessd/lib/mcpat"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/simplessd/lib/mcpat/cacti"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/simplessd/lib/inih"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/waqar/SimpleSSD-Standalone/lib/drampower/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				29
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "mcpat::@50186ed9a8d0a3453d40"
+		}
+	],
+	"id" : "simplessd::@e2a68b3d3d03f143052a",
+	"name" : "simplessd",
+	"nameOnDisk" : "libsimplessd.a",
+	"paths" : 
+	{
+		"build" : "simplessd",
+		"source" : "simplessd"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\cpu",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Source Files\\dram",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "Source Files\\ftl",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "Source Files\\ftl\\common",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		},
+		{
+			"name" : "Source Files\\hil",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"name" : "Source Files\\hil\\nvme",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"name" : "Source Files\\hil\\sata",
+			"sourceIndexes" : 
+			[
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "Source Files\\hil\\ufs",
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23,
+				24
+			]
+		},
+		{
+			"name" : "Source Files\\icl",
+			"sourceIndexes" : 
+			[
+				25,
+				26,
+				27,
+				28
+			]
+		},
+		{
+			"name" : "Source Files\\lib\\inih",
+			"sourceIndexes" : 
+			[
+				29
+			]
+		},
+		{
+			"name" : "Source Files\\pal",
+			"sourceIndexes" : 
+			[
+				30,
+				31,
+				32
+			]
+		},
+		{
+			"name" : "Source Files\\pal\\old",
+			"sourceIndexes" : 
+			[
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39
+			]
+		},
+		{
+			"name" : "Source Files\\sim",
+			"sourceIndexes" : 
+			[
+				40,
+				41,
+				42,
+				43,
+				44
+			]
+		},
+		{
+			"name" : "Source Files\\util",
+			"sourceIndexes" : 
+			[
+				45,
+				46,
+				47,
+				48,
+				49,
+				50
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/cpu/config.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/cpu/cpu.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/dram/abstract_dram.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/dram/config.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/dram/simple.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/ftl/config.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/ftl/ftl.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/ftl/page_mapping.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/ftl/common/block.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/hil.cc",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/nvme/abstract_subsystem.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/nvme/config.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/nvme/controller.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/nvme/dma.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/nvme/namespace.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/nvme/ocssd.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/nvme/queue.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/nvme/subsystem.cc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/sata/config.cc",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/sata/device.cc",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/sata/hba.cc",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/ufs/config.cc",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/ufs/def.cc",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/ufs/device.cc",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/hil/ufs/host.cc",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/icl/abstract_cache.cc",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/icl/config.cc",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/icl/generic_cache.cc",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/icl/icl.cc",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "simplessd/lib/inih/ini.c",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/config.cc",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/pal.cc",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/pal_old.cc",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/old/Latency.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/old/LatencyMLC.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/old/LatencySLC.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/old/LatencyTLC.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/old/PAL2.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/old/PAL2_TimeSlot.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/pal/old/PALStatistics.cc",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/sim/config_reader.cc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/sim/cpu.cc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/sim/log.cc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/sim/simulator.cc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/sim/state.cc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/util/bitset.cc",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/util/def.cc",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/util/disk.cc",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/util/fifo.cc",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/util/interface.cc",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "simplessd/util/simplessd.cc",
+			"sourceGroupIndex" : 13
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
